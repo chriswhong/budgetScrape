@@ -4,6 +4,8 @@ budgetScrape
 Node scraper for NYC Budget PDFs.
 
 Uses NYC "supporting schedules" budget documents, outputs a csv for lowest-level budgeted amounts with associated hierarchy.
+(OMB publishes pdfs [here](http://www1.nyc.gov/site/omb/publications/publications.page), this scraper grabs data from the 2000-ish page long "Supporting Schedules", which you can see on each financial plan page [such as this one](http://www1.nyc.gov/site/omb/publications/finplan04-16.page).
+
 
 The hierarchy looks like this:
 
