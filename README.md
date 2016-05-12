@@ -27,4 +27,4 @@ I make no guarantee that this thing is working properly, please check your work 
 
 ##Just give me the damn data
 
-[Executive Budget 2017 - CSV](https://github.com/chriswhong/budgetScrape/blob/master/csv/ss4-16-executive17.csv)
+[Executive Budget 2017 - CSV](https://github.com/chriswhong/budgetScrape/blob/master/csv/ss4-16-executive17.csv?raw=true)
