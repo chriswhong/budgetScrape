@@ -1,0 +1,23 @@
+{
+  "name": "budgetscrape",
+  "version": "1.0.0",
+  "description": "budgetScrape ============",
+  "main": "parsetxt.js",
+  "dependencies": {
+    "lazy": "^1.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriswhong/budgetScrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriswhong/budgetScrape/issues"
+  },
+  "homepage": "https://github.com/chriswhong/budgetScrape#readme"
+}
