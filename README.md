@@ -22,3 +22,9 @@ First, scrape raw text out of PDFs using `node scrape.js`.  This script is looki
 Next run `node parsetxt.js {filepath}` replacing {filepath} with the path to the .txt file you want to parse.  This will create a csv of the same name in `/csv`.
 
 The FY 2017 Executive Budget is provided as an example in this repo, you may need to modify the script to get different columns of text depending on which budget docs you are parsing.
+
+I make no guarantee that this thing is working properly, please check your work against the source document.  Pull Requests Welcomed!
+
+##Just give me the damn data
+
+[Executive Budget 2017 - CSV](https://github.com/chriswhong/budgetScrape/blob/master/csv/ss4-16-executive17.csv)
