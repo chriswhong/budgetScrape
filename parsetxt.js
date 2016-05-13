@@ -161,7 +161,7 @@ new lazy(fs.createReadStream( inputPath ))
 		var oId = String(s.match(/\b\d{3}\b/));
 		if(oId != "null"){
 			var oName = String(lineString.substr(27,32).trim());
-			var amount = String(lineString.substr(97,20)).trim().replace(/,/g, '');
+			var amount = String(lineString.substr(99,20)).trim().replace(/,/g, '');
 			console.log(amount,typeof(amount), amount.length)
 			if( amount.length > 0) {
 				console.log("------O: " + oId + " " + oName + " $" + amount);
