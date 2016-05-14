@@ -131,7 +131,7 @@ new lazy(fs.createReadStream( inputPath ))
 			var tempId = String(lineString.substr(12,100).match(/[A-Z0-9]{4}/));
 			
 			var s = lineString.indexOf(tempId);
-			var tempName = lineString.substr(s+4,100).trim().replace(/,/g, '');
+			var tempName = lineString.substr(s+4,100).trim();
 			
 
 			if(bcId != tempId) {
@@ -168,18 +168,18 @@ new lazy(fs.createReadStream( inputPath ))
 
 				output.write(
 					[
-						agencyId,
-						agencyName,
-						uoaId,
-						uoaName,
-						rcId,
-						rcName,
-						bcId,
-						bcName,
-						ocId,
-						ocName,
-						oId,
-						oName,
+						'"' + agencyId + '"',
+						'"' + agencyName + '"',
+						'"' + uoaId + '"',
+						'"' + uoaName + '"',
+						'"' + rcId + '"',
+						'"' + rcName + '"',
+						'"' + bcId + '"',
+						'"' + bcName + '"',
+						'"' + ocId + '"',
+						'"' + ocName + '"',
+						'"' + oId + '"',
+						'"' + oName + '"',
 						amount
 					]
 					.join(',') + '\n'
